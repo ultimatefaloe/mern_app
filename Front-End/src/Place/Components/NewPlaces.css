@@ -1,0 +1,57 @@
+.form_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.form_input{
+    width: 50%;
+    padding: 10px;
+    background-color: #f8df005c;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #ddd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input_con{
+    display: block;
+    margin: 5px;
+}
+.input_con label{
+    padding: 3px;
+}
+.input_con input[type=text], .input_con input[type=number]{
+ width: 90%;
+ padding: 5px;
+ margin: 2px;
+ border-radius: 7px;
+ border: 1px solid #f8df00;
+ font-size: 24px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ -ms-border-radius: 7px;
+ -o-border-radius: 7px;
+}
+.btn input[type=submit]{
+    border: none;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: #f8df00;
+    color: #fff;
+    font: 20px bold;
+    border-radius: 7px;
+    transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.2s;
+    -moz-transition: all ease-out 0.5s;
+    -ms-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.btn input[type=submit]:hover{
+    background-color: #feef68;
+}
