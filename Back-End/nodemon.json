@@ -1,0 +1,8 @@
+{
+  "env": {
+    "DB_USERNAME": "troy19156",
+    "DB_PWAASORD_KEY" : "hjCJ4dlt6JkjfzWc",
+    "DB_TABLE_NAME": "mern",
+    "JWT_TOKEN_KEY": "Yung_pol@25"
+  }
+}
